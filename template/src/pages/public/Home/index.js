@@ -1,6 +1,6 @@
-import React from "react";
-import { HomeWrapper } from "./style.js";
+import React from 'react'
+import { HomeWrapper } from './style.js'
 
-const Home = props => <HomeWrapper>Home</HomeWrapper>;
+const Home = props => <HomeWrapper>Home</HomeWrapper>
 
-export default Home;
+export default Home

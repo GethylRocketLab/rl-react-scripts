@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const HomeWrapper = styled.div`
   display: flex;
@@ -10,6 +10,6 @@ const HomeWrapper = styled.div`
   color: #06f4b1 !important;
   font-size: 34px;
   width: 100%;
-`;
+`
 
-export { HomeWrapper };
+export { HomeWrapper }

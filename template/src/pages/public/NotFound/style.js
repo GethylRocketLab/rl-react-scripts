@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const NotFoundWrapper = styled.div`
   display: flex;
@@ -7,6 +7,6 @@ const NotFoundWrapper = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-`;
+`
 
-export { NotFoundWrapper };
+export { NotFoundWrapper }
