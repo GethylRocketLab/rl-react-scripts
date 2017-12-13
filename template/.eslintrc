@@ -1,0 +1,35 @@
+{
+  "extends": "react-app",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "globals": {
+    "Promise": true,
+    "jest": true
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
+  "plugins": [],
+  "rules": {
+    "quotes": [2, "single"],
+    "comma-dangle": ["error", "always-multiline"],
+    "semi": [2, "never"],
+    "eol-last": [2, "always"],
+    "linebreak-style": [2, "unix"],
+    "no-tabs": [2],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "import/prefer-default-export": 0,
+    "default-case": 0
+  }
+}
