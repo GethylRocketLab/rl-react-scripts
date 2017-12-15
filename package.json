@@ -1,21 +1,17 @@
 {
   "name": "rl-react-scripts",
   "version": "0.1.0",
-  "description": "Configuration and scripts for Create React App. customised for Rocket LAb",
+  "description":
+    "Configuration and scripts for Create React App. customised for Rocket LAb",
+  "repository": "GethylRocketLab/rl-react-scripts",
   "license": "MIT",
   "engines": {
     "node": ">=6"
   },
   "bugs": {
-    "url": "https://github.com/facebookincubator/create-react-app/issues"
+    "url": "https://github.com/GethylRocketLab/rl-react-scripts/issues"
   },
-  "files": [
-    "bin",
-    "config",
-    "scripts",
-    "template",
-    "utils"
-  ],
+  "files": ["bin", "config", "scripts", "template", "utils"],
   "bin": {
     "react-scripts": "./bin/react-scripts.js"
   },
